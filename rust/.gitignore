@@ -1,0 +1,31 @@
+# Compiled Object files
+*.o
+*.out
+*.a
+*.rlib
+*.d
+
+# Executables
+target/debug/
+target/release/
+
+# Build artifacts
+target/
+
+# Automatically generated files
+Cargo.lock
+Cargo.toml.orig
+
+# IDEs and Editors
+*.swp
+*.swo
+*.swn
+*.swm
+*.stsw
+
+# IntelliJ IDEA
+out/
+
+# VSCode
+.vscode/
+

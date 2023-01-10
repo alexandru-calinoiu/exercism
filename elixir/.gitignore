@@ -1,0 +1,11 @@
+_build/
+deps/
+*.ez
+*.beam
+*.lock
+*.exs.eex
+*.exs.leex
+*.eex
+*.leex
+*.dump
+

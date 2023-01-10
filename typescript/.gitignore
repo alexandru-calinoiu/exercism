@@ -1,0 +1,45 @@
+# TypeScript
+#
+# Specific to TypeScript.
+#
+# See: https://github.com/Microsoft/TypeScript/issues/11677
+#
+*.d.ts
+
+# Compiled JavaScript files
+*.js
+*.js.map
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional yarn cache directory
+.yarn-cache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# coverage files
+coverage/
+

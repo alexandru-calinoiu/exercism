@@ -1,0 +1,9 @@
+# Elm files
+elm-stuff/
+*.elmi
+*.elmo
+
+# Elm Compiler output
+elm.js
+elm.js.map
+

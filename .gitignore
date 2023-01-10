@@ -1,0 +1,24 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IntelliJ IDEA runtime files
+out/
+
+# IntelliJ IDEA caches and generated files
+*.ipr
+*.iml
+*.iws
+*.swp
+*.swo
+*.log
+*.apk
+*.cache
+*.tmp
+*.gen
+*.out
+*.class
+*.jar
+
