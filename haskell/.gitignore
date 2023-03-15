@@ -1,0 +1,32 @@
+# Haskell specific files
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+
+# Cabal build artifacts
+dist
+dist-newstyle
+cabal-sandbox
+.cabal-sandbox
+
+# Stack build artifacts
+.stack-work
+
+# IDE and editor files
+.vscode
+*.sublime-workspace
+*.atom
+
+# Generated documentation
+docs/html
+docs/latex
+
+# Test and coverage reports
+*.tix
+*.prof
+*.html
+*.css
+*.js
+*.coverage
+
