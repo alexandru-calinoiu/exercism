@@ -20,3 +20,6 @@ not_too_far(X,Y):-connected(X,Z,_L1),connected(Z,Y,_L2).  % add more clauses as 
 
 reachable(X,Y,[]):-connected(X,Y,_L).
 reachable(X,Y,[Z|R]):-connected(X,Z,_L),reachable(Z,Y,R).
+
+woman:-human,not(man).
+man:-human,not(woman).
