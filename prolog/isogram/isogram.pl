@@ -5,5 +5,10 @@ isogram(Word):-
 
 is_isogram([]).
 is_isogram([H|T]):-
-  ((H = ' '; H = '-');(H \= ' ', H \= '-', not(member(H, T)))),
-  is_isogram(T).
+  (H = ' '; H = '-'),
+  is_isogram(T),
+  !.
+is_isogram([H|T]):-
+  not(member(H, T)),
+  is_isogram(T),
+  !.
